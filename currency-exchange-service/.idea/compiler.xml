@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="currency-exchange-service" />
+        <module name="limit-services" />
+        <module name="currency-conversion-service" />
+        <module name="netflix-eureka-naming-server" />
+        <module name="spring-cloud-config" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="currency-conversion-service" options="" />
+      <module name="currency-exchange-service" options="" />
+      <module name="limit-services" options="" />
+      <module name="spring-cloud-config" options="" />
+    </option>
+  </component>
+</project>
